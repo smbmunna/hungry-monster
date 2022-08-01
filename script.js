@@ -45,13 +45,13 @@ const displayData = meals => {
       const dishCard = document.createElement('div');
       dishCard.id = 'dish-card';
 
-      //creating image div and append to dishCard
+      //creating image and append to dishCard
       const cardImg = document.createElement('img');
       cardImg.id = 'card-img';
       cardImg.src = meal.strMealThumb;
       dishCard.appendChild(cardImg);
 
-      //creating image title div and append ot dishCard
+      //creating image title div append ot dishCard
       const foodTitle = document.createElement('h3');
       foodTitle.id = 'food-title';
       foodTitle.innerHTML = meal.strMeal;
