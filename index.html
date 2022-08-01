@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Hungry Monster</title>
+</head>
+
+<body>
+    <div id="navbar">
+        <div>
+            <img id='logo' src="./logo.jpg" alt="">
+        </div>
+        <div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">About</a></li>
+                <li><a href="#contact">Recipe</a></li>
+                <li><a href="#about">Blog</a></li>
+              </ul>
+        </div>
+    </div>
+    <div id='input-box'>
+        <input id="input-food" placeholder="Search For Meal..." type="search">
+        <input id="btn-submit" type="submit" value="Search">
+        <div>
+            <h3 id='error-msg'>Please enter any Food Item</h3>
+            <h3 id='no-data-msg'>Couldn't find such Food Items!</h3>
+        </div>
+    </div>
+
+    <div id="main-container">
+        
+    </div>
+
+    <!-- <button id="myBtn">Open Modal</button> -->
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-body">
+            <span class="close">&times;</span>
+            <div id='modal-content'>
+                    <img id='recipe-img' src="" alt="">
+                <div id='modal-recipe'>
+                    <h1 id='modal-title'>Mustard Champ</h1>
+                    <h3>Ingredients</h3>                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src='script.js'></script>
+</body>
+
+</html>

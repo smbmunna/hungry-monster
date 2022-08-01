@@ -1,0 +1,147 @@
+body{
+  font-family: sans-serif;
+}
+
+/* Menu styling */
+#navbar{
+  padding: 25px 100px 50px 0px;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  float: right;
+  
+}
+li a{
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #888;
+  padding: 10px 20px;
+}
+#logo{
+  height: 55px;
+  width: 75px;
+  float: left;
+  margin-left: 130px;
+}
+#input-box{
+  margin-top: 15px;
+  text-align: center;
+}
+
+#main-container img{  
+    height: 180px;
+    width: 250px;  
+    border-radius: 10px 10px 0 0;
+}
+#input-food{
+   width: 30%;
+   height: 45px;
+   padding: 15px;
+   border-radius: 5px;   
+   background-color:#F8F7F5;
+   border: none;
+}
+#food-title{
+  text-align: center;
+  background-color: #F8F7F5;
+  border-radius: 7px;
+  padding: 30px 15px;
+  margin-top: -15px;  
+}
+#input-food:focus{
+  outline: none;
+}
+
+#btn-submit{
+  height: 45px;
+  width: 65px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  margin-left: -7px;
+  background-color: #F06C4E;
+  color: white;
+  cursor: pointer;
+}
+#main-container{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+
+}
+#dish-card{
+    padding: 15px;   
+    cursor: pointer;   
+}
+#dish-card:hover{
+  opacity: 0.6;
+}
+
+#card-img{
+  pointer-events: none;
+}
+#error-msg{
+    display: none;
+}
+#no-data-msg{
+    display: none;
+}
+
+
+/* Modal */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-body {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */    
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #recipe-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 275px ;
+    border-radius: 7px;
+
+  }
+  #modal-recipe{
+    margin: 5% 28% auto;
+  }
+  #ingredient-text{
+    color:rgb(95, 95, 95);
+    font-weight: bold;
+  }
